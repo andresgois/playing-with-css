@@ -3,29 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-h3 {
-  text-align: center;
+main{
+  display: flex;
 }
-.container{
-  background-color: #eee;
+.container {
+  margin: 5px;
+  width: 250px;
   height: 250px;
-  width: 90%;
-  margin: auto;
   border: 1px solid #000;
 }
 
-.box {
-  height: 50px;
-  width:  50px;
-  margin: 1px;
-  background-color: red;
+.block {
+  width: 248px;
+  height: 225px;
+  background-color: #ccc;
 }
 
-.flex {
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 1px;
+}
+
+.flex{
   display: flex;
 }
 
-.item-flex {
-  
+.flex-items {
+
 }
