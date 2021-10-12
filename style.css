@@ -33,3 +33,8 @@ main{
 .flex-items {
 
 }
+
+.p2 .flex{
+  display: flex;
+  justify-content: center;
+}
