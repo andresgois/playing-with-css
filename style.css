@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+}
+.container{
+  background-color: #eee;
+  height: 250px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.box {
+  height: 50px;
+  width:  50px;
+  margin: 1px;
+  background-color: red;
+}
+
+.flex {
+  display: flex;
+}
+
+.item-flex {
+  
+}
