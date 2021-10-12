@@ -38,3 +38,8 @@ main{
   display: flex;
   justify-content: center;
 }
+
+.p3 .flex{
+  display: flex;
+  justify-content: space-around;
+}
