@@ -17,6 +17,12 @@
   height: 250px;
   margin: auto;
   border: 1px solid #000;
+  display: flex;  
+  flex-wrap: wrap;
+}
+label {
+  display: inline;
+  padding: 2px;
 }
 .block{
   width: 98%;
