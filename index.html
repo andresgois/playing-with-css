@@ -6,49 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flex</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="./main.js"></script>
 </head>
 <body>
   
   <main>
 
     <div class="container">
-      <h4>No flex</h4>
+
+      <div class="painel">
+        <label for="flex">Flex
+          <select name="select" id="flex">
+            <option value="none">none</option>
+            <option value="inline">inline</option>
+            <option value="block">block</option>
+            <option value="list-item">list-item</option>
+            <option value="inline-block">inline-block</option>
+            <option value="inline-table">inline-table</option>
+            <option value="table">table</option>
+            <option value="table-cell">table-cell</option>
+            <option value="table-column">table-column</option>
+            <option value="table-column-group">table-column-group</option>
+            <option value="table-footer-group">table-footer-group</option>
+            <option value="table-header-group">table-header-group</option>
+            <option value="table-row">table-row</option>
+            <option value="table-row-group">table-row-group</option>
+            <option value="flex">flex</option>
+            <option value="inline-flex">inline-flex</option>
+            <option value="grid">grid</option>
+            <option value="inline-grid">inline-grid</option>
+            <option value="run-in">run-in</option>
+            <option value="inherit">inherit</option>
+          </select>
+        </label>
+      </div>
+
       <div class="block">
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
       </div>
-    </div>
-
-    <div class="container">
-      <h4>with flex</h4>
-      <div class="block flex">
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-      </div>
-    </div>
-
-    <div class="container p2">
-      <h4>alinhamento dos itens ao centro</h4>
-      <div class="block flex">
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-      </div>
-    </div>
-
-    <div class="container p3">
-      <h4>even spacing on the screen</h4>
-      <div class="block flex">
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-        <div class="box flex-items"></div>
-      </div>
+ 
     </div>
 
   </main>

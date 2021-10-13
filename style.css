@@ -3,43 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
-main{
-  display: flex;
-}
+
 .container {
-  margin: 5px;
-  width: 250px;
-  height: 250px;
-  border: 1px solid #000;
+  width: 95%;
+  height: 620px;
+  background-color: #ccc;
+  margin:auto;
 }
 
-.block {
-  width: 248px;
-  height: 225px;
-  background-color: #ccc;
+.painel{
+  background-color: #fff;
+  width: 98%;
+  height: 250px;
+  margin: auto;
+  border: 1px solid #000;
+}
+.block{
+  width: 98%;
+  height: 350px;
+  margin: auto;
+  border: 1px solid #000;
 }
 
 .box{
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #f00;
   margin: 1px;
-}
-
-.flex{
-  display: flex;
-}
-
-.flex-items {
-
-}
-
-.p2 .flex{
-  display: flex;
-  justify-content: center;
-}
-
-.p3 .flex{
-  display: flex;
-  justify-content: space-around;
 }
