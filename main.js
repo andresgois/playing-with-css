@@ -10,6 +10,13 @@
     let alignItems = document.querySelector("#align-items");
     let alignContent = document.querySelector("#align-content");
 
+    let flexGrow = document.querySelector("#flex-grow");
+    let flexBasis = document.querySelector("#flex-basis");
+    let flexShrink = document.querySelector("#flex-shrink");
+    let flex = document.querySelector("#flex");
+    let order = document.querySelector("#order");
+    let alignSelf = document.querySelector("#align-self");
+
     let block = document.querySelector(".block");
     let box = document.querySelector(".box");
     
@@ -39,6 +46,25 @@
     
     alignContent.addEventListener("change", () => {
       block.style.alignContent = alignContent.value
+    });
+
+    flexGrow.addEventListener("change", () => {
+      block.style.flexGrow = flexGrow.value
+    });
+    flexBasis.addEventListener("change", () => {
+      block.style.flexBasis = flexBasis.value
+    });
+    flexShrink.addEventListener("change", () => {
+      block.style.flexShrink = flexShrink.value
+    });
+    flex.addEventListener("change", () => {
+      block.style.flex = flex.value
+    });
+    // alignContent.addEventListener("change", () => {
+    //   block.style.alignContent = alignContent.value
+    // });
+    alignSelf.addEventListener("change", () => {
+      block.style.alignSelf = alignSelf.value
     });
 
 
