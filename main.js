@@ -18,11 +18,16 @@
     let alignSelf = document.querySelector("#align-self");
 
     let block = document.querySelector(".block");
-    let box = document.querySelector(".box");
+    let box1 = document.querySelector(".box-1");
+    let box2 = document.querySelector(".box-2");
+    let box3 = document.querySelector(".box-3");
+    let box4 = document.querySelector(".box-4");
     
+
     display.addEventListener("change", () => {
       block.style.display = display.value
     });
+    /*
     
     flexDirection.addEventListener("change", () => {
       block.style.flexDirection = flexDirection.value
@@ -54,9 +59,11 @@
     flexBasis.addEventListener("change", () => {
       block.style.flexBasis = flexBasis.value
     });
+
     flexShrink.addEventListener("change", () => {
       block.style.flexShrink = flexShrink.value
     });
+
     flex.addEventListener("change", () => {
       block.style.flex = flex.value
     });
@@ -66,6 +73,30 @@
     alignSelf.addEventListener("change", () => {
       block.style.alignSelf = alignSelf.value
     });
+
+    if(box1){
+      box1.addEventListener("keyup", () => {
+        document.querySelector(".box1").style.order = box1.value
+      })
+    }
+
+    if(box2){
+      box2.addEventListener("keyup", () => {
+        document.querySelector(".box2").style.order = box2.value
+      })
+    }
+
+    if(box3){
+      box3.addEventListener("keyup", () => {
+        document.querySelector(".box3").style.order = box3.value
+      })
+    }
+
+    if(box4){
+      box4.addEventListener("keyup", () => {
+        document.querySelector(".box4").style.order = box4.value
+      })
+    }*/
 
 
   });
