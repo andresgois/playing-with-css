@@ -27,12 +27,11 @@
     display.addEventListener("change", () => {
       block.style.display = display.value
     });
-    /*
     
     flexDirection.addEventListener("change", () => {
       block.style.flexDirection = flexDirection.value
     });
-
+    
     flexWrap.addEventListener("change", () => {
       block.style.flexWrap = flexWrap.value
     });
@@ -40,6 +39,7 @@
     justifyContent.addEventListener("change", () => {
       block.style.justifyContent = justifyContent.value
     });
+    /*
 
     flexFlow.addEventListener("change", () => {
       block.style.flexFlow = flexFlow.value
