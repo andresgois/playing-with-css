@@ -2,7 +2,7 @@
 ## Playing with css
 
 
-### Dispaly 
+### Display 
 
 #### FLEX
 - uma **div** sempre se comporta como uma elemento em bloco, sempre fica uma em baixo da outro, mesmo que tenha espaços na lateral.
@@ -49,22 +49,22 @@
     - nowrap: não permite a quebra de linha
 ```
 ----------
-|🟥🟩🟪|🟧
+|🟥🟩🟪 |🟧
 |        |
 ----------
 ```
     - wrap: quebra alinha assim que o item não possa ser compactado
 ```
 ----------
-|🟥🟩🟪|
-|🟧     |
+|🟥🟩🟪 |
+|🟧      |
 ----------
 ```
     - wrap-reverse: quebra os itens, mas em direção contrária 
 ```
 ----------
-|🟧🟪🟩|
-|🟥     |
+|🟧🟪🟩 |
+|🟥      |
 ----------
 ```
 ##### Flex-flow
@@ -122,3 +122,47 @@
 |                   |
 ---------------------
 ```       
+
+##### Align-items
+- O align-items alinha os flex itens de acordo com o eixo do container. O alinhamento é diferente para quando os itens estão em colunas ou linhas.
+  - *align-items: stretch | flex-start | flex-end | center | baseline*
+    - stretch: Valor padrão, ele que faz com que os flex itens cresçam igualmente.
+```
+---------------------
+|🟥🟩🟪🟧         |
+|                   |
+|                   |
+---------------------
+```    
+    - flex-start: Alinha os itens ao início.
+```
+---------------------
+|🟥🟩🟪🟧         |
+|                   |
+|                   |
+---------------------
+```    
+    - flex-end: Alinha os itens ao final.
+```
+---------------------
+|                   |
+|                   |
+|🟥🟩🟪🟧         |
+---------------------
+```      
+    - center: Alinha os itens ao centro.
+```
+---------------------
+|                   |
+|🟥🟩🟪🟧         |
+|                   |
+---------------------
+```      
+    - baseline: Alinha os itens de acordo com a linha base da tipografia.
+```
+---------------------
+|🟥🟩🟪🟧         |
+|                   |
+|                   |
+---------------------
+```  
