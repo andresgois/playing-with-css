@@ -5,10 +5,10 @@
     let alignFlex = document.querySelector("#align-flex");
     let flexDirection = document.querySelector("#flex-direction");
     let flexWrap = document.querySelector("#flex-wrap");
-    let flexFlow = document.querySelector("#flex-flow");
     let justifyContent = document.querySelector("#justify-content");
     let alignItems = document.querySelector("#align-items");
     let alignContent = document.querySelector("#align-content");
+    let flexFlow = document.querySelector("#flex-flow");
 
     let flexGrow = document.querySelector("#flex-grow");
     let flexBasis = document.querySelector("#flex-basis");
@@ -39,16 +39,16 @@
     justifyContent.addEventListener("change", () => {
       block.style.justifyContent = justifyContent.value
     });
+
+    alignItems.addEventListener("change", () => {
+      block.style.alignItems = alignItems.value
+    });
     /*
 
     flexFlow.addEventListener("change", () => {
       block.style.flexFlow = flexFlow.value
     });
 
-    alignItems.addEventListener("change", () => {
-      block.style.alignItems = alignItems.value
-    });
-    
     alignContent.addEventListener("change", () => {
       block.style.alignContent = alignContent.value
     });
