@@ -22,10 +22,17 @@
     let box2 = document.querySelector(".box-2");
     let box3 = document.querySelector(".box-3");
     let box4 = document.querySelector(".box-4");
+    let p_flex = this.document.querySelector('.p-flex');
     
 
     display.addEventListener("change", () => {
-      block.style.display = display.value
+      block.style.display = display.value;
+      if(display.value === 'flex'){        
+        //p_flex.classList.contains("hidden");
+        p_flex.classList.remove('hidden')
+      }else{
+        p_flex.classList.add('hidden')
+      }
     });
     
     flexDirection.addEventListener("change", () => {
@@ -43,15 +50,17 @@
     alignItems.addEventListener("change", () => {
       block.style.alignItems = alignItems.value
     });
+
+    alignContent.addEventListener("change", () => {
+      block.style.alignContent = alignContent.value
+    });
     /*
 
     flexFlow.addEventListener("change", () => {
       block.style.flexFlow = flexFlow.value
     });
 
-    alignContent.addEventListener("change", () => {
-      block.style.alignContent = alignContent.value
-    });
+    
 
     flexGrow.addEventListener("change", () => {
       block.style.flexGrow = flexGrow.value
