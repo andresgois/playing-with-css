@@ -26,6 +26,7 @@
             </select>
           </label>
         </div>
+        <!-- FLEX -->
         <div class="row">
           <div class="hidden p-flex">
             
@@ -77,97 +78,36 @@
                 </select>
               </label>  
 
+              <label for="order" class="order">Order: 
+                  Box 1 <input type="text" class="box-1" value="0" />          
+                  Box 2 <input type="text" class="box-2" value="0" />          
+                  Box 3 <input type="text" class="box-3" value="0" />          
+                  Box 4 <input type="text" class="box-4" value="0" />              
+              </label>
+
           </div>
 
         </div>
-
+        <!-- GRID -->
         <div class="row">
-          
+          <div class="hidden2 p-grid">
+            <label for="grid-template-columns">grid-template-columns
+              <select name="select" id="grid-template-columns">
+                <option value="row">row</option>
+                <option value="row-reverse">row-reverse</option>
+                <option value="column">column</option>
+                <option value="column-reverse">column-reverse</option>
+              </select>
+            </label>
+          </div>
         </div>
-          <!--
-          <label for="align-flex">Align-flex
-            <select name="select" id="align-flex">
-              <option value="none">none</option>
-              <option value="inline">inline</option>
-              <option value="block">block</option>
-            </select>
-          </label>
-          
-          <label for="flex-flow">Flex-flow
-            <small>1 - row nowrap | 2 - row wrap | 3 - column nowrap</small>
-            <select name="select" id="flex-flow">
-              <option value="nowrap">nowrap</option>
-              <option value="wrap">wrap</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="row">
-          
-          
-                
-          <label for="flex-grow">Flex-grow
-            <select name="select" id="flex-grow">
-              <option value="0">0</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </select>
-          </label>
-          <label for="flex-basis">Flex-basis
-            <select name="select" id="flex-basis">
-              <option value="0">0</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </select>
-          </label>
-          <label for="flex">Flex
-            <select name="select" id="flex">
-              <option value="1">1</option>
-              <option value="0 1 auto">0 1 auto</option>
-              <option value="2">2</option>
-              <option value="3 2 300px">3 2 300px</option>
-            </select>
-          </label>
-        </div>
-        
-        <div class="row">
-          <label for="flex-shrink" class="shrink">Flex-shrink
-            <small>Um item com shrink: 3 diminuirá 3 vezes mais que um item com 1.</small>
-            <input type="text" name="" id="flex-shrink-uni">
-          </label>
-          
-          <label for="order" class="order">Order
-            <small>Modifica a ordem dos flex itens</small>
-            <div class="inputs">
-              Box 1 <input type="text" class="box-1" value="0" />          
-              Box 2 <input type="text" class="box-2" value="0" />          
-              Box 3 <input type="text" class="box-3" value="0" />          
-              Box 4 <input type="text" class="box-4" value="0" />              
-            </div>
-          </label>
-          <label for="align-self">Align-self
-            <select name="select" id="align-self">
-              <option value="auto">auto</option>
-              <option value="flex-start">flex-start</option>
-              <option value="flex-end">flex-end</option>
-              <option value="center">center</option>
-              <option value="baseline">baseline</option>
-              <option value="stretch">stretch</option>
-            </select>
-          </label>-->
-        
-        
       </div>
 
       <div class="block">
-        <div class="box box1">1</div>
-        <div class="box box2">2</div>
-        <div class="box box3">3</div>
-        <div class="box box4">4</div>
+        <div class="box box1" style="height: 60px;">1</div>
+        <div class="box box2" style="height: 80px;">2</div>
+        <div class="box box3" style="height: 120px;">3</div>
+        <div class="box box4" style="height: 180px;">4</div>
       </div>
  
     </div>
