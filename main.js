@@ -13,18 +13,15 @@
     let box2 = document.querySelector(".box-2");
     let box3 = document.querySelector(".box-3");
     let box4 = document.querySelector(".box-4");
-    let p_flex = this.document.querySelector('.p-flex');
-    let p_grid = this.document.querySelector('.p-grid');
-    
+    let p_flex = this.document.querySelector('.p-flex');    
 
     display.addEventListener("change", () => {
       block.style.display = display.value;
       if(display.value === 'flex'){        
         //p_flex.classList.contains("hidden");
         p_flex.classList.remove('hidden')
-      }else if(display.value === 'grid'){
-          p_flex.classList.add('hidden')
-          p_grid.classList.remove('hidden2')          
+      }else{
+        p_flex.classList.add('hidden')       
       }
       
     });
@@ -61,8 +58,5 @@
     box4.addEventListener("keyup", () => {
       document.querySelector(".box4").style.order = box4.value
     })
-
-
-
 
   });
